@@ -22,5 +22,29 @@ function myFuncBlur1(){
     mus.classList.remove("highlightable");
     }
 
-    
+    function myFuncFocus1(){
+        var title=document.getElementById("title");
+        title.classList.add("highlightable");
+        title.classList.remove("error");
+        }
+        function myFuncFocus2(){
+        var des=document.getElementById("description");
+        des.classList.add("highlightable");
+        des.classList.remove("error");
+        }
+        function myFuncFocus3(){
+        var med=document.getElementById("medium");
+        med.classList.add("highlightable");
+        med.classList.remove("error");
+        }
+        function myFuncFocus4(){
+        var yr=document.getElementById("year");
+        yr.classList.add("highlightable");
+        yr.classList.remove("error");
+        }
+        function myFuncFocus5(){
+        var mus=document.getElementById("museum");
+        mus.classList.add("highlightable");
+        mus.classList.remove("error");
+        } 
    

@@ -15,11 +15,11 @@
 <td colspan="2">
 <p>
 <label>Title</label><br/>
-<input type="text" name="title" id="title" class="required hilightable" onblur="myFuncBlur1()"/>
+<input type="text" name="title" id="title" class="required hilightable" onblur="myFuncBlur1()" onfocus="myFuncFocus1()" />
 </p>
 <p>
 <label>Description</label><br/>
-<input type="text" name="description" id="description" class="required hilightable" onblur="myFuncBlur2()" />
+<input type="text" name="description" id="description" class="required hilightable" onblur="myFuncBlur2()" onfocus="myFuncFocus2()" />
 </p>
 </td>
 </tr>
@@ -46,15 +46,15 @@
 </p>
 <p>
 <label>Medium</label><br/>   
-<input type="text" name="medium" id="medium" class="hilightable" onblur="myFuncBlur3()" />
+<input type="text" name="medium" id="medium" class="hilightable" onblur="myFuncBlur3()" onfocus="myFuncFocus3()"/>
 </p>
 <p>
 <label>Year</label><br/>   
-<input type="text" name="year" id="year" class="hilightable required" onblur="myFuncBlur4()" />
+<input type="text" name="year" id="year" class="hilightable required" onblur="myFuncBlur4()" onfocus="myFuncFocus4()" />
 </p>
 <p>
 <label>Museum</label><br/>   
-<input type="text" name="museum" id="museum" class="hilightable" onblur="myFuncBlur5()"  />
+<input type="text" name="museum" id="museum" class="hilightable" onblur="myFuncBlur5()" onfocus="myFuncFocus5()" />
 </p>   
 </td>
 <td>
@@ -76,7 +76,7 @@
 <tr>
 <td colspan="2">
 <div class="rectangle centered">
-<input type="submit" class="btn" /> <input type="reset" value="Clear Form" class="btn" />
+<input type="submit" class="btn"  /> <input type="reset" value="Clear Form" class="btn" />
 </div>
 </td>
 </tr>
