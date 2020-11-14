@@ -16,4 +16,14 @@ window.addEventListener("load", function () {
           
         }
     }
+
+    var f = document.getElementById("featured");
+    
+    f.addEventListener("mouseover", function (event) {
+
+        var caption = f.getElementsByTagName("figcaption");
+        caption.style.opacity='80%';
+        caption.style.transition = 'opacity 1s';
+        
+    });
 });
